@@ -17,10 +17,20 @@ A fast, reliable, and automated attendance tracking system featuring dynamic **Q
 
 ---
 
-<p align="center">
-  <img src="https://via.placeholder.com/600x350.png?text=Desktop+Dashboard+Preview" width="65%" alt="Desktop Preview" />
-  <img src="https://via.placeholder.com/200x350.png?text=Mobile+Scan+UI" width="25%" alt="Mobile Preview" />
-</p>
+<table border="0">
+  <tr>
+    <td align="center" width="50%">
+      <img src="views/dashboard.png" alt="Dashboard Preview" width="100%" />
+      <br />
+      <b>Dashboard</b>
+    </td>
+    <td align="center" width="50%">
+      <img src="views/attendance.png" alt="Attendance Preview" width="100%" />
+      <br />
+      <b>Attendance</b>
+    </td>
+  </tr>
+</table>
 
 ---
 
