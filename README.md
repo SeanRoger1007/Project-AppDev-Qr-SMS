@@ -1,34 +1,39 @@
 # Web-Based Attendance Management System
 
-## Overview
-This project is a **Web-Based Attendance Management System** developed using **PHP, MySQL, HTML, CSS, and JavaScript**. The system allows users to register, log in, and manage attendance records through a simple web interface.
+A fast, reliable, and automated attendance tracking system featuring dynamic **QR Code generation** and **SMS Gateway notification integration**.
 
-It is designed to help automate attendance tracking and store records digitally instead of using manual attendance sheets.
+![PHP](https://img.shields.io/badge/PHP-7.4%2B-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-8.0-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
+![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)
 
-## Features
-- User registration and login system
-- Session-based authentication
-- Attendance monitoring
-- Instructor dashboard for managing records
-- User dashboard for viewing information
-- Database storage using MySQL
+> Efficiently automate attendance verification, reduce manual recordkeeping errors, and send real-time SMS alerts to users upon scanning.
 
-## Technologies Used
-- **Frontend:** HTML, CSS, JavaScript  
-- **Backend:** PHP  
-- **Database:** MySQL  
+| Resource | Link |
+| :--- | :--- |
+| **Live Demo** | `http://localhost/projectAttendanceSystem` |
+| **Database Schema** | `database/attendance_db.sql` |
+| **SMS API Docs** | [Twilio API Reference](https://www.twilio.com/docs) / [Semaphore API](https://semaphore.co/docs) |
 
-## Installation
+---
 
-1. Install **XAMPP** or any local server.
-2. Place the project folder inside the `htdocs` directory.
+<p align="center">
+  <img src="https://via.placeholder.com/600x350.png?text=Desktop+Dashboard+Preview" width="65%" alt="Desktop Preview" />
+  <img src="https://via.placeholder.com/200x350.png?text=Mobile+Scan+UI" width="25%" alt="Mobile Preview" />
+</p>
 
-xampp/htdocs/projectAttendanceSystem
+---
 
-3. Open **phpMyAdmin** and create a database:
-4. Import the database file:
-5. Start **Apache** and **MySQL** in XAMPP.
-6. Open your browser and go to:
+## Features 💥
 
-## Purpose
-The goal of this project is to demonstrate how **PHP and MySQL can be used to build a simple web-based system for managing attendance records efficiently.**
+- **Session-Based Authentication:** Secure user login and registration routes for students and administrators.
+- **Instructor Dashboard:** Real-time visibility into daily logs, user activity, and attendance history export options.
+- **Dynamic QR Code Scanning:** Instant check-in/check-out verification using digital QR codes.
+- **Automated SMS Gateway Integration:** Sends instant confirmation messages directly to user devices via API when attendance is logged.
+- **Database Persistence:** Managed centralized recordkeeping backed by MySQL.
+
+---
+
+## SMS Gateway Integration (QR Code Workflow) 📱
+
+The attendance system integrates an external **SMS Gateway API** (e.g., *Twilio* or *Semaphore*) to deliver instant SMS notifications when a QR code is scanned.
