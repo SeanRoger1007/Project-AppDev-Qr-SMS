@@ -5,8 +5,6 @@ This project is a **Web-Based Attendance Management System** developed using **P
 
 It is designed to help automate attendance tracking and store records digitally instead of using manual attendance sheets.
 
-⚠️ Disclaimer: This system was developed as part of a school project and is intended for academic and learning purposes only. It may not include advanced security features or production-level optimizations.
-
 ## Features
 - User registration and login system
 - Session-based authentication
